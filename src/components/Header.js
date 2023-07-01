@@ -4,6 +4,7 @@ import Project from "./Project";
 import Resume from "./Resume";
 import Contact from "./Contact";
 import Navigation from "./Navigation";
+import "./styles/Header.css";
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -26,11 +27,19 @@ export default function Header() {
 
   return (
     <div>
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {renderPage()}
+      <nav>
+        <div>
+          <a className="" rel="noreferrer" target="_blank" href="#">
+            <span className="content is-large">Shiby Mathew</span>
+          </a>
+        </div>
+
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </nav>
+      <main>{renderPage()}</main>
     </div>
   );
 }
