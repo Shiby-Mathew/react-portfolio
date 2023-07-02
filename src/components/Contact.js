@@ -1,19 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/contact.css";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   const handleInputChange = (e) => {
-    // const { name, value } = e.target;
-    // return name === 'firstName' ? setFirstName(value) : setLastName(value);
+    const { name, value } = e.target;
+    if (name === "name") {
+      setName(value);
+    } else if (name === "email") {
+      setEmail(value);
+    } else setMessage(value);
   };
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-
-    // // Alert the user their first and last name, clear the inputs
-    // alert(`Hello ${firstName} ${lastName}`);
-    // setFirstName('');
-    // setLastName('');
+    
   };
 
   return (
@@ -26,7 +30,7 @@ function Contact() {
             <label className="label p-2">Name</label>
             <input
               className="input "
-              // value={name}
+              value={name}
               name="name"
               onChange={handleInputChange}
               type="text"
@@ -37,7 +41,7 @@ function Contact() {
             <label className="label p-2">Email Address</label>
             <input
               className="input"
-              // value={email}
+              value={email}
               name="email"
               onChange={handleInputChange}
               type="email"
@@ -45,10 +49,10 @@ function Contact() {
             />
           </div>
           <div className="form-group">
-            <label className="label p-2 ">Message</label>
+            <label className="label">Message</label>
             <textarea
               className="textarea"
-              // value={message}
+              value={message}
               name="message"
               onChange={handleInputChange}
               rows="5"
