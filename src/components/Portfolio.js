@@ -6,7 +6,6 @@ const projects = [
     id: 0,
     title: "SpaceLink",
     languages: "HTML, JavaScript, jQuery, Bootstrap",
-    API: "SpaceX API,Globe API",
     image: "pic2",
     description:
       "This website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and comprehensive information about all things SpaceX",

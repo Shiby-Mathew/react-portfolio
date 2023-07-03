@@ -1,30 +1,30 @@
 import React from "react";
+
 import "./styles/style.css";
 
 function Project({ project }) {
   return (
-    <divu>
-      <a class="" href={project.repo} target="#">
-        <div>
-          <h3 class="work-title">{project.title}</h3>
+    <div>
+      <div class="row">
+        <div class="col-md-5 project-item mt-4 ">
+          <a href={project.live}>
+            <img
+              class="img-responsive mt-4"
+              src={require(`../assets/${project.image}.jpg`)}
+              alt="Project"
+            />
+          </a>
+          <h2>{project.title}</h2>
+          {/* <h3>
+       <a href="/{{city.id}}">{{city_name}}, {{state}}</a>
+     </h3>  */}
+          <p>{project.description}</p>
+          <h4>Technologies Used</h4>
+          <hr />
+          <p>{project.languages}</p>
         </div>
-      </a>
-      <a href={project.live}>
-        <img
-          alt={project.title}
-          src={require(`../images/${project.image}.jpg`)}
-        />
-      </a>
-      <div>
-        <p className="">{project.description}</p>
       </div>
-      <div>
-        <p>Technologies Used</p>
-        <p className="">{project.languages}</p>
-      </div>
-
-      {/* <img className="content">{project.image}</img> */}
-    </divu>
+    </div>
   );
 }
 export default Project;
