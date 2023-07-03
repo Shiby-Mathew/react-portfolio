@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Project from "./Project";
 
 const projects = [
@@ -39,6 +39,7 @@ const projects = [
 function Portfolio() {
   return (
     <div>
+      <p className="contact">Portfolio</p>
       {projects.map((project, index) => (
         <Project project={project} key={index} />
       ))}

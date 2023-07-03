@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./styles/style.css";
 
 function Contact() {
@@ -29,10 +30,10 @@ function Contact() {
     <div>
       <p className="contact">Contact Me</p>
       <hr />
-      <form className="contactForm">
+      <form className="contactForm p-4">
         <div className="form">
-          <div className="form-group mb-4">
-            <label className="label p-2">Name</label>
+          <div className="form-group mb-2">
+            <label className="label p-2">Name :</label>
             <input
               className="input "
               value={name}
@@ -42,8 +43,8 @@ function Contact() {
               placeholder="Name"
             />
           </div>
-          <div className="form-group mb-4">
-            <label className="label p-2">Email Address</label>
+          <div className="form-group mb-2">
+            <label className="label p-2">Email Address :</label>
             <input
               className="input"
               value={email}
@@ -54,7 +55,7 @@ function Contact() {
             />
           </div>
           <div className="form-group">
-            <label className="label">Message</label>
+            <label className="label p-2">Message :</label>
             <textarea
               className="textarea"
               value={message}

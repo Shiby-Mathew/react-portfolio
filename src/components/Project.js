@@ -20,7 +20,7 @@ function Project({ project }) {
      </h3>  */}
           <p>{project.description}</p>
           <h4>Technologies Used</h4>
-          <hr />
+
           <p>{project.languages}</p>
         </div>
       </div>

@@ -1,6 +1,4 @@
-/* Header */
-
-/* -------CSS from old portfolio------- */
+/*----------- Header-------------- */
 
 nav {
   display: flex;
@@ -42,12 +40,9 @@ h2 {
 .image {
   clip-path: circle();
   width: 250px;
-
-  /* border-radius: 50%;
-    width: 150px;*/
 }
 
-/*Footer*/
+/*----------Footer----------*/
 .footer {
   display: flex;
   justify-content: center;
@@ -55,23 +50,33 @@ h2 {
   padding: 3%;
 }
 
-/* Contact me */
-.contactForm {
-  text-align: center;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  /* border: 1px dotted; */
-  /* text-align: left; */
-}
+/*------------- Contact me----------- */
+
 .title {
   text-align: center;
+}
+.contactForm {
+  background-color: aliceblue;
+  
 }
 .contact {
   font-size: 30px;
   font-weight: 900;
+  text-align: left;
 }
-/* Project */
+.form {
+  margin: 20px;
+}
+
+.form input,
+textarea {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+/*----------- Project-------------- */
 .project-item {
   background-color: aliceblue;
   border: 1px solid rgb(95, 174, 244);
@@ -80,3 +85,4 @@ h2 {
   max-width: 100%;
   height: auto;
 }
+/*------------ resume----------- */

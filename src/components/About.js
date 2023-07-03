@@ -4,9 +4,7 @@ import image from "../assets/pic2.jpg";
 function About() {
   return (
     <div>
-      <p className="content is-medium">
-        FrontEnd Developer/Full Stack Developer
-      </p>
+      <p className="contact is-medium">About Me</p>
 
       <img src={image} className="image p-4" alt="mypic" />
       {/* <img src="./assets/images/pic2.jpg" alt="myphoto" /> */}
