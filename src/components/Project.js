@@ -5,11 +5,11 @@ import "./styles/style.css";
 function Project({ project }) {
   return (
     <div>
-      <div class="row">
-        <div class="col-sm-6 project-item ">
+      <div className="row">
+        <div className="col-sm-6 project-item ">
           <a href={project.live} target="_blank" rel="noreferrer">
             <img
-              class="img-responsive"
+              className="img-responsive"
               src={require(`../assets/${project.image}.PNG`)}
               alt="Project"
             />

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { validateEmail } from "../utils/helper";
 
 import "./styles/style.css";
 
@@ -10,20 +11,28 @@ function Contact() {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    if (name === "name") {
-      setName(value);
-    } else if (name === "email") {
+    if (name === "email") {
+      // const valCheck = validateEmail(e.target.value);
+      // if (valCheck) {
       setEmail(value);
+      // } else setsubmitmessage("Please enter a valid email");
+    } else if (name === "name") {
+      setName(value);
     } else setMessage(value);
   };
+
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-    setsubmitmessage("Thank you for submitting contact form");
-    setName("");
-    setEmail("");
-    setMessage("");
-    // setsubmitmessage("");
+    if (name === "" || email === "" || message === "") {
+      setsubmitmessage("Please enter the data");
+    }
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    else {
+      setsubmitmessage("Thank you for submitting contact form");
+      setName("");
+      setEmail("");
+      setMessage("");
+    }
   };
 
   return (
@@ -69,7 +78,7 @@ function Contact() {
 
         <button
           type="submit"
-          class="btn btn-primary mt-4"
+          className="btn btn-primary mt-4"
           onClick={handleFormSubmit}
         >
           Submit
