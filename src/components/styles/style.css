@@ -57,7 +57,6 @@ h2 {
 }
 .contactForm {
   background-color: aliceblue;
-  
 }
 .contact {
   font-size: 30px;
@@ -65,7 +64,7 @@ h2 {
   text-align: left;
 }
 .form {
-  margin: 20px;
+  margin: 30px;
 }
 
 .form input,
@@ -75,14 +74,23 @@ textarea {
   margin-bottom: 5px;
   width: 100%;
 }
-
+.label {
+  margin-left: auto;
+}
 /*----------- Project-------------- */
 .project-item {
   background-color: aliceblue;
   border: 1px solid rgb(95, 174, 244);
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding: 30px;
+}
+
 /*------------ resume----------- */

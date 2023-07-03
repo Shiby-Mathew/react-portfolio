@@ -6,22 +6,29 @@ function Project({ project }) {
   return (
     <div>
       <div class="row">
-        <div class="col-md-5 project-item mt-4 ">
-          <a href={project.live}>
+        <div class="col-sm-6 project-item ">
+          <a href={project.live} target="_blank" rel="noreferrer">
             <img
-              class="img-responsive mt-4"
-              src={require(`../assets/${project.image}.jpg`)}
+              class="img-responsive"
+              src={require(`../assets/${project.image}.PNG`)}
               alt="Project"
             />
           </a>
           <h2>{project.title}</h2>
-          {/* <h3>
-       <a href="/{{city.id}}">{{city_name}}, {{state}}</a>
-     </h3>  */}
           <p>{project.description}</p>
           <h4>Technologies Used</h4>
-
           <p>{project.languages}</p>
+          <p>
+            <a href={project.repo} target="_blank" rel="noreferrer">
+              See the Repo!
+            </a>
+          </p>
+          <p>
+            {" "}
+            <a href={project.live} target="_blank" rel="noreferrer">
+              See the Live Application!
+            </a>
+          </p>
         </div>
       </div>
     </div>
