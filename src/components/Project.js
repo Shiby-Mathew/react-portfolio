@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles/Header.css";
+import "./styles/style.css";
 
 function Project({ project }) {
   return (
-    <div>
+    <divu>
       <a class="" href={project.repo} target="#">
         <div>
           <h3 class="work-title">{project.title}</h3>
@@ -24,7 +24,7 @@ function Project({ project }) {
       </div>
 
       {/* <img className="content">{project.image}</img> */}
-    </div>
+    </divu>
   );
 }
 export default Project;

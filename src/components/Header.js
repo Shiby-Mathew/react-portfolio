@@ -4,7 +4,7 @@ import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import Contact from "./Contact";
 import Navigation from "./Navigation";
-import "./styles/Header.css";
+import "./styles/style.css";
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState("About");

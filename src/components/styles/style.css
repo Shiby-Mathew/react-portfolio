@@ -1,3 +1,5 @@
+/* Header */
+
 /* -------CSS from old portfolio------- */
 
 nav {
@@ -42,35 +44,30 @@ h2 {
   width: 250px;
 
   /* border-radius: 50%;
-  width: 150px;*/
-}
-/* 
-.work-title {
-  position: relative;
-  color: var(--hover-color);
-  padding-left: 10px;
-  font-size: 20px;
-  text-decoration: underline;
-  margin-bottom: 2%;
+    width: 150px;*/
 }
 
-.work-frame {
-  border: 1px solid var(--border-color);
-  min-height: 200px;
-  max-height: 100px;
-  min-width: 100px;
-  max-width: 426px;
-  flex-basis: 100%;
+/*Footer*/
+.footer {
   display: flex;
-  align-items: flex-end;
-  padding: 0 0 10px 0;
-  margin: 2px;
-  /* background-image: url("../images/pic2.jpg"); */
-/* background-repeat: no-repeat;
-  background-size: cover;
-}
-.work-container {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-} */
+  background-color: aliceblue;
+  padding: 3%;
+}
+
+/* Contact me */
+.contactForm {
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px dotted; */
+  /* text-align: left; */
+}
+.title {
+  text-align: center;
+}
+.contact {
+  font-size: 30px;
+  font-weight: 900;
+}
