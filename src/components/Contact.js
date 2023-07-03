@@ -5,6 +5,7 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [submitmessage, setsubmitmessage] = useState("");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -17,7 +18,11 @@ function Contact() {
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-    
+    setsubmitmessage("Thank you for submitting contact form");
+    setName("");
+    setEmail("");
+    setMessage("");
+    // setsubmitmessage("");
   };
 
   return (
@@ -69,6 +74,7 @@ function Contact() {
           Submit
         </button>
       </form>
+      <p>{submitmessage}</p>
     </div>
   );
 }

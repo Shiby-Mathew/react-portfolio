@@ -1,56 +1,29 @@
 import React from "react";
+import "./styles/Header.css";
 
-const projects = [
-  {
-    id: 0,
-    title: "SpaceLink",
-    languages: "HTML, JavaScript, jQuery, Bootstrap",
-    API: "SpaceX API,Globe API",
-    image: "../images/pic2.jpg",
-    description:
-      "This website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and comprehensive information about all things SpaceX",
-    repo: "https://github.com/Shiby-Mathew/Cityreviewr",
-    live: "https://maxkeable.github.io/SpaceLink/",
-  },
-  {
-    id: 1,
-    title: "Cityreviewr",
-    languages: "HTML, JavaScript, jQuery, Bootstrap",
-    Packages: "",
-    image: "../images/pic2.jpg",
-    description:
-      "This website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and comprehensive information about all things SpaceX",
-    repo: "https://github.com/Shiby-Mathew/SpaceLink",
-    live: "https://maxkeable.github.io/SpaceLink/",
-  },
-  {
-    id: 3,
-    title: "Weather-Dashboard",
-    languages: "HTML, JavaScript, jQuery, Bootstrap",
-    Packages: "",
-    image: "../images/pic2.jpg",
-    description:
-      "This website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and comprehensive information about all things SpaceX",
-    repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
-    live: "https://shiby-mathew.github.io/Weather-Dashboard/",
-  },
-];
-
-function Project() {
+function Project({ project }) {
   return (
     <div>
-      <p className="content is-medium">Full Stack Developer</p>
-      <hr />
+      <a class="" href={project.repo} target="#">
+        <div>
+          <h3 class="work-title">{project.title}</h3>
+        </div>
+      </a>
+      <a href={project.live}>
+        <img
+          alt={project.title}
+          src={require(`../images/${project.image}.jpg`)}
+        />
+      </a>
+      <div>
+        <p className="">{project.description}</p>
+      </div>
+      <div>
+        <p>Technologies Used</p>
+        <p className="">{project.languages}</p>
+      </div>
 
-      <p className="content is-italic mt-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et
-        massa quis libero mattis consectetur.
-      </p>
-      <p className="content">
-        This is Project Page Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Praesent et massa quis libero mattis consectetur. Praesent ex
-        urna, ultrices vel
-      </p>
+      {/* <img className="content">{project.image}</img> */}
     </div>
   );
 }
