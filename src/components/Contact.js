@@ -23,11 +23,13 @@ function Contact() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    const valCheck = validateEmail(email);
+
     if (name === "" || email === "" || message === "") {
       setsubmitmessage("Please enter the data");
-    }
-    // Preventing the default behavior of the form submit (which is to refresh the page)
-    else {
+    } else if (!valCheck) {
+      setsubmitmessage("Please enter a valid email");
+    } else {
       setsubmitmessage("Thank you for submitting contact form");
       setName("");
       setEmail("");

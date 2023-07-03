@@ -6,7 +6,7 @@ function Resume() {
       <p className="contact is-medium">Resume</p>
 
       <div className="header__buttons">
-        <a href="../assets/Shiby-Resume.pdf" download>
+        <a href="./Shiby-Resume.pdf" download>
           Download my Resume
         </a>
       </div>
