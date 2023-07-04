@@ -20,7 +20,10 @@ export default function Header() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
-    return <Contact />;
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -29,8 +32,8 @@ export default function Header() {
     <div>
       <nav>
         <div>
-          <a className="" rel="noreferrer" target="_blank" href="#">
-            <span className="content is-large">Shiby Mathew</span>
+          <a className="" rel="noreferrer" target="_blank" href="/">
+            <span className="name is-large">Shiby Mathew</span>
           </a>
         </div>
 

@@ -12,10 +12,7 @@ function Contact() {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     if (name === "email") {
-      // const valCheck = validateEmail(e.target.value);
-      // if (valCheck) {
       setEmail(value);
-      // } else setsubmitmessage("Please enter a valid email");
     } else if (name === "name") {
       setName(value);
     } else setMessage(value);
@@ -24,11 +21,14 @@ function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     const valCheck = validateEmail(email);
-
-    if (name === "" || email === "" || message === "") {
-      setsubmitmessage("Please enter the data");
+    if (!name) {
+      setsubmitmessage("Please enter the name");
+    } else if (!email) {
+      setsubmitmessage("Please enter the email");
     } else if (!valCheck) {
       setsubmitmessage("Please enter a valid email");
+    } else if (!message) {
+      setsubmitmessage("Please enter a message");
     } else {
       setsubmitmessage("Thank you for submitting contact form");
       setName("");

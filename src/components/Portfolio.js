@@ -32,6 +32,36 @@ const projects = [
     repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
     live: "https://shiby-mathew.github.io/Weather-Dashboard/",
   },
+  {
+    id: 3,
+    title: "Note Taker",
+    languages: "",
+    image: "pic4",
+    description:
+      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed. Cities that user previously looked up will be saved in their local storage. Recently viewed city name is shown in the dashboard and a button to clear local storage data.",
+    repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
+    live: "https://shiby-mathew.github.io/Weather-Dashboard/",
+  },
+  {
+    id: 4,
+    title: "Employee Tracker",
+    languages: "MySQL",
+    image: "pic5",
+    description:
+      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed. Cities that user previously looked up will be saved in their local storage. Recently viewed city name is shown in the dashboard and a button to clear local storage data.",
+    repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
+    live: "https://shiby-mathew.github.io/Weather-Dashboard/",
+  },
+  {
+    id: 5,
+    title: "Password Generator",
+    languages: "HTML, JavaScript,CSS",
+    image: "pic6",
+    description:
+      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed. Cities that user previously looked up will be saved in their local storage. Recently viewed city name is shown in the dashboard and a button to clear local storage data.",
+    repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
+    live: "https://shiby-mathew.github.io/Weather-Dashboard/",
+  },
 ];
 
 function Portfolio() {

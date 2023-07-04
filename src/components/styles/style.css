@@ -22,10 +22,16 @@ nav a {
   font-size: 25px;
   text-decoration: none;
 }
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+}
 
 /*------------main------------*/
 main {
   font-family: Work Sans;
+  font-size: 20px;
   display: flex;
   flex: 1 1 0;
   max-width: 85%;
@@ -48,6 +54,9 @@ h2 {
   justify-content: center;
   background-color: aliceblue;
   padding: 3%;
+}
+footer a {
+  margin-left: 20px;
 }
 
 /*------------- Contact me----------- */
@@ -94,3 +103,6 @@ textarea {
 }
 
 /*------------ resume----------- */
+.skill {
+  font-size: 25px;
+}

@@ -12,20 +12,20 @@ function Resume() {
       </div>
 
       <div className="column">
-        <p className="content is-medium mt-5">Front-End Skills</p>
+        <p className="skill mt-5">Front-End Skills</p>
         <hr />
         <ul>
           <li>HTML, CSS, Javascript</li>
           <li>Bootstrap, jQuery</li>
-          <li>React, MERN</li>
+          <li>React</li>
           <li>Github, Heroku</li>
         </ul>
       </div>
       <div className="column">
-        <p className="content is-medium mt-5">Back-End Skills</p>
+        <p className="skill mt-5">Back-End Skills</p>
         <hr />
         <ul>
-          <li>Node.js, Express.js</li>
+          <li>Node.js, Express.js,GraphQL</li>
           <li>SQL, ORM</li>
           <li>MongoDB, Mongoose</li>
           <li>Github, Heroku</li>
