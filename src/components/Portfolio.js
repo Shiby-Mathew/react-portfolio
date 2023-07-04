@@ -28,39 +28,39 @@ const projects = [
     languages: "HTML, JavaScript, Bootstrap, OpenWeather API",
     image: "pic3",
     description:
-      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed. Cities that user previously looked up will be saved in their local storage. Recently viewed city name is shown in the dashboard and a button to clear local storage data.",
+      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed.",
     repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
     live: "https://shiby-mathew.github.io/Weather-Dashboard/",
   },
   {
     id: 3,
     title: "Note Taker",
-    languages: "",
+    languages: "Node.js, Express.js, HTML, CSS, JavaScript",
     image: "pic4",
     description:
-      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed. Cities that user previously looked up will be saved in their local storage. Recently viewed city name is shown in the dashboard and a button to clear local storage data.",
-    repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
-    live: "https://shiby-mathew.github.io/Weather-Dashboard/",
+      "This application called Note Taker that can be used to write and save notes.This application uses Express.js as a back-end, save and retrieve note data from a JSON file.",
+    repo: "https://github.com/Shiby-Mathew/Note-taker",
+    live: "https://shiby-note-taker-app.herokuapp.com/",
   },
   {
     id: 4,
-    title: "Employee Tracker",
-    languages: "MySQL",
+    title: "Interview-Quiz",
+    languages: "JavaScript, HTML,CSS",
     image: "pic5",
     description:
-      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed. Cities that user previously looked up will be saved in their local storage. Recently viewed city name is shown in the dashboard and a button to clear local storage data.",
-    repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
-    live: "https://shiby-mathew.github.io/Weather-Dashboard/",
+      "This application is a timed coding quiz with multiple-choice questions.This app will run in the browser and it features dynamically updated HTML along with CSS powered by JavaScript code. ",
+    repo: "https://github.com/Shiby-Mathew/Interview-Quiz",
+    live: "https://shiby-mathew.github.io/Interview-Quiz/",
   },
   {
     id: 5,
     title: "Password Generator",
-    languages: "HTML, JavaScript,CSS",
+    languages: "HTML, JavaScript, CSS",
     image: "pic6",
     description:
-      "This application allows user to search for a city to get the current weather and 5-day forecast. It will display city name, date, an icon representation of weather conditions, temperature, humidity, wind speed. Cities that user previously looked up will be saved in their local storage. Recently viewed city name is shown in the dashboard and a button to clear local storage data.",
-    repo: "https://github.com/Shiby-Mathew/Weather-Dashboard",
-    live: "https://shiby-mathew.github.io/Weather-Dashboard/",
+      "This application enables users to generate random passwords based on the criteria selected by user.This app will run in the browser and it will feature dynamically updated HTML along with CSS powered by JavaScript code.",
+    repo: "https://github.com/Shiby-Mathew/Password-Generator",
+    live: "https://shiby-mathew.github.io/Password-Generator/",
   },
 ];
 
