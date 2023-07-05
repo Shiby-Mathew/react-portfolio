@@ -107,8 +107,6 @@ textarea {
   flex-direction: row;
   margin-top: 20px;
   padding: 5px;
-  display: inline;
-  float: left;
 }
 
 /*------------ resume----------- */

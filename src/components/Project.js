@@ -6,7 +6,7 @@ function Project({ project }) {
   return (
     <div>
       <div className="row">
-        <div className="col-sm-6 project-item ">
+        <div className="col-sm-5 project-item ">
           <a href={project.live} target="_blank" rel="noreferrer">
             <img
               className="img-responsive"
