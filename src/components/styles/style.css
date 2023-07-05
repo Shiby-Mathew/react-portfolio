@@ -5,10 +5,17 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-
-  /* color: var(--light); */
+  position: sticky;
+  top: 0;
   background-color: aliceblue;
+  z-index: 100;
 }
+
+nav .new {
+  position: sticky;
+  top: 0;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -49,14 +56,24 @@ h2 {
 }
 
 /*----------Footer----------*/
+
 .footer {
+  background-color: aliceblue;
+
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
   padding: 1%;
 }
+
 footer a {
   margin-left: 20px;
+}
+footer {
+  margin-top: auto;
 }
 
 /*------------- Contact me----------- */
@@ -96,11 +113,6 @@ textarea {
   height: auto;
 }
 
-/* .card {
-  border: 1px solid #1a1a1a;
-  margin-bottom: 1rem;
-} */
-
 .row {
   display: flex;
   flex-flow: row wrap;
@@ -112,6 +124,12 @@ textarea {
 /*------------ resume----------- */
 .skill {
   font-size: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
 }
 
 @media only screen and (max-width: 1024px) {

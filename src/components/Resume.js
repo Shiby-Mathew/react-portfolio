@@ -15,9 +15,8 @@ function Resume() {
         <p className="skill mt-5">Front-End Skills</p>
         <hr />
         <ul>
-          <li>HTML, CSS</li>
+          <li>HTML, CSS, Javascript</li>
           <li>Javascript</li>
-          <li>React</li>
           <li>Bootstrap, jQuery</li>
           <li>REST API</li>
           <li>React</li>
