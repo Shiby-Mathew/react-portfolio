@@ -15,8 +15,11 @@ function Resume() {
         <p className="skill mt-5">Front-End Skills</p>
         <hr />
         <ul>
-          <li>HTML, CSS, Javascript</li>
+          <li>HTML, CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
           <li>Bootstrap, jQuery</li>
+          <li>REST API</li>
           <li>React</li>
           <li>Github, Heroku</li>
         </ul>
@@ -25,9 +28,10 @@ function Resume() {
         <p className="skill mt-5">Back-End Skills</p>
         <hr />
         <ul>
-          <li>Node.js, Express.js,GraphQL</li>
+          <li>Node.js, Express.js, GraphQL</li>
           <li>SQL, ORM</li>
           <li>MongoDB, Mongoose</li>
+          <li>MERN</li>
           <li>Github, Heroku</li>
         </ul>
       </div>

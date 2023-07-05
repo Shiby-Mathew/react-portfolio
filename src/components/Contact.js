@@ -41,7 +41,7 @@ function Contact() {
     <div>
       <p className="contact">Contact Me</p>
       <hr />
-      <form className="contactForm p-4">
+      <form className="contactForm p-5">
         <div className="form">
           <div className="form-group mb-2">
             <label className="label p-2">Name :</label>
