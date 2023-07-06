@@ -2,11 +2,13 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import "./styles/style.css";
+// Footer Section
 
 function Footer() {
   return (
     <div>
       <footer className="footer">
+        {/* Icons from fa-icons */}
         <address>
           <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
             <FaLinkedin style={{ fontSize: "30px" }} />

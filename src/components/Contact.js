@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helper";
 
 import "./styles/style.css";
+// Contact Session
 
 function Contact() {
   const [name, setName] = useState("");

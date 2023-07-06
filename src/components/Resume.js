@@ -1,10 +1,12 @@
 import React from "react";
 
+//Resume Section
+
 function Resume() {
   return (
     <div>
       <p className="contact is-medium">Resume</p>
-
+      {/* Download resume */}
       <div className="header__buttons">
         <a href="./Shiby-Resume.pdf" download>
           Download my Resume

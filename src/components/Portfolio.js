@@ -1,6 +1,8 @@
 import React from "react";
 import Project from "./Project";
 
+// Portfolio Section
+
 const projects = [
   {
     id: 0,

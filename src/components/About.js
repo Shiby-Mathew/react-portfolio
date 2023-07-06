@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/img.png";
 
+// About Section
 function About() {
   return (
     <div>

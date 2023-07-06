@@ -1,3 +1,9 @@
+:root {
+
+
+  --light: aliceblue;
+}
+
 /*----------- Header-------------- */
 
 nav {
@@ -7,7 +13,7 @@ nav {
   padding: 1%;
   position: sticky;
   top: 0;
-  background-color: aliceblue;
+  background-color: var(--light);
   z-index: 100;
 }
 
@@ -58,7 +64,7 @@ h2 {
 /*----------Footer----------*/
 
 .footer {
-  background-color: aliceblue;
+  background-color: var(--light);
 
   display: flex;
   justify-content: center;
@@ -82,7 +88,7 @@ footer {
   text-align: center;
 }
 .contactForm {
-  background-color: aliceblue;
+  background-color: var(--light);
 }
 .contact {
   font-size: 30px;
@@ -105,7 +111,7 @@ textarea {
 }
 /*----------- Project-------------- */
 .project-item {
-  background-color: aliceblue;
+  background-color: var(--light);
   border: 1px solid rgb(95, 174, 244);
 }
 .img-responsive {

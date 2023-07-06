@@ -2,9 +2,9 @@
 
 ## Description
 
-This is a portfolio application using new React skills. An effective portfolio highlights the latest
-technologies as well as the thought processes behind it. Here I used placeholder images and names.
-Later I will change them to real applications.
+This is a portfolio application using new React skills. An effective portfolio highlights latest
+technologies and thought processes behind it. Here I have used placeholder images and description.
+Late, I will change them to real applications.
 
 ## User Story
 
@@ -65,4 +65,15 @@ The following image shows the web application's appearance and functionality:
 
 ![The Portfolio webpage includes a header,navigation bar,Project links and contact info](./images/contact.png)
 
-## Technologies Used
+### Technologies Used
+
+- HTML
+- CSS
+- React
+- Bootstrap
+
+### Resources
+
+Class Material
+Tutoring session
+

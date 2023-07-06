@@ -5,11 +5,15 @@ import Resume from "./Resume";
 import Contact from "./Contact";
 import Navigation from "./Navigation";
 import "./styles/style.css";
+        
+        
+// Header Section
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState("About");
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // This method is checking to see what the value of `currentPage` is.
+  // Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === "About") {
       return <About />;
@@ -36,7 +40,7 @@ export default function Header() {
             <span className="name is-large">Shiby Mathew</span>
           </a>
         </div>
-
+         {/* navigation Section */}
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
