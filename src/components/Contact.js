@@ -22,13 +22,13 @@ function Contact() {
     e.preventDefault();
     const valCheck = validateEmail(email);
     if (!name) {
-      setsubmitmessage("Please enter the name");
+      setsubmitmessage("Name field is required");
     } else if (!email) {
-      setsubmitmessage("Please enter the email");
+      setsubmitmessage("Email field is required");
     } else if (!valCheck) {
       setsubmitmessage("Please enter a valid email");
     } else if (!message) {
-      setsubmitmessage("Please enter a message");
+      setsubmitmessage("Message field is required");
     } else {
       setsubmitmessage("Thank you for submitting contact form");
       setName("");
