@@ -6,8 +6,8 @@ import Project from "./Project";
 const projects = [
   {
     id: 0,
-    title: "EcomRevolve",
-    languages: "REACT, MongoDB, Node.js, Express.js,GraphQL,ApolloServer",
+    title: "eCommerceRevolve",
+    languages: "REACT, MongoDB, Node.js, Express.js, GraphQL, ApolloServer",
     image: "pic",
     description:
       "This website is the ultimate hub for sharing captivating stories and reviews in the world of Australian e-commerce. This platform is dedicated to showcasing the customer journey, with a focus on shipping period, user locations, and the value range of orders",
@@ -65,16 +65,6 @@ const projects = [
       "This application is a timed coding quiz with multiple-choice questions.This app will run in the browser and it features dynamically updated HTML along with CSS powered by JavaScript code. ",
     repo: "https://github.com/Shiby-Mathew/Interview-Quiz",
     live: "https://shiby-mathew.github.io/Interview-Quiz/",
-  },
-  {
-    id: 6,
-    title: "Password Generator",
-    languages: "HTML, JavaScript, CSS",
-    image: "pic6",
-    description:
-      "This application enables users to generate random passwords based on the criteria selected by user.This app will run in the browser and it will feature dynamically updated HTML along with CSS powered by JavaScript code.",
-    repo: "https://github.com/Shiby-Mathew/Password-Generator",
-    live: "https://shiby-mathew.github.io/Password-Generator/",
   },
 ];
 
