@@ -6,14 +6,15 @@ import Project from "./Project";
 const projects = [
   {
     id: 0,
-    title: "SpaceLink",
-    languages: "HTML, JavaScript, jQuery, Bootstrap",
-    image: "pic2",
+    title: "EcomRevolve",
+    languages: "REACT, MongoDB, Node.js, Express.js,GraphQL,ApolloServer",
+    image: "pic",
     description:
-      "This website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and comprehensive information about all things SpaceX",
-    repo: "https://github.com/Shiby-Mathew/Cityreviewr",
-    live: "https://maxkeable.github.io/SpaceLink/",
+      "This website is the ultimate hub for sharing captivating stories and reviews in the world of Australian e-commerce. This platform is dedicated to showcasing the customer journey, with a focus on shipping period, user locations, and the value range of orders",
+    repo: "https://github.com/StevenDong2512/EcomRevolve",
+    live: "https://ecomrevolve-3cc9d9562799.herokuapp.com/",
   },
+
   {
     id: 1,
     title: "Cityreviewr",
@@ -26,6 +27,17 @@ const projects = [
   },
   {
     id: 2,
+    title: "SpaceLink",
+    languages: "HTML, JavaScript, jQuery, Bootstrap",
+    image: "pic2",
+    description:
+      "This website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and comprehensive information about all things SpaceX",
+    repo: "https://github.com/Shiby-Mathew/Cityreviewr",
+    live: "https://maxkeable.github.io/SpaceLink/",
+  },
+
+  {
+    id: 3,
     title: "Weather-Dashboard",
     languages: "HTML, JavaScript, Bootstrap, OpenWeather API",
     image: "pic3",
@@ -35,7 +47,7 @@ const projects = [
     live: "https://shiby-mathew.github.io/Weather-Dashboard/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Note Taker",
     languages: "Node.js, Express.js, HTML, CSS, JavaScript",
     image: "pic4",
@@ -45,7 +57,7 @@ const projects = [
     live: "https://shiby-note-taker-app.herokuapp.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Interview-Quiz",
     languages: "JavaScript, HTML,CSS",
     image: "pic5",
@@ -55,7 +67,7 @@ const projects = [
     live: "https://shiby-mathew.github.io/Interview-Quiz/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Password Generator",
     languages: "HTML, JavaScript, CSS",
     image: "pic6",
