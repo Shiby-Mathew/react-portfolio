@@ -9,26 +9,18 @@ function About() {
       <img src={image} className="image p-3" alt="mypic" />
 
       <p className="content is-italic mt-4 p-4">
-        I'm Shiby, currently doing Bootcamp to make a carrier change, as a Full
-        Stack Developer
+        I'm Shiby, recently graduated Bootcamp (Full Stack Web Development) from
+        University of Sydney
       </p>
       <p className="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et
-        massa quis libero mattis consectetur. Praesent ex urna, ultrices
-        vel.This is Project Page Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Praesent et massa quis libero mattis consectetur.
-        Praesent ex urna, ultrices vel. Praesent et massa quis libero mattis
-        consectetur. Praesent ex urna, ultrices vel.This is Project Page Lorem
-        ipsum dolor sit amet
+        A junior full stack developer with a proven ability to adapt in both
+        self-starting and collaborative environments while staying focused on
+        achieving high-quality results under strict deadlines. Eager to obtain a
+        challenging position that will expand my learning and build upon my
+        developer skills.
+        
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et
-        massa quis libero mattis consectetur. libero mattis consectetur.
-        Praesent ex urna, ultrices vel.Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Praesent et massa quis libero mattis consectetur.
-        libero mattis consectetur. Praesent ex urna, ultrices vel.Lorem ipsum
-        dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit
-      </p>
+      
     </div>
   );
 }

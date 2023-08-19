@@ -11,7 +11,7 @@ function Footer() {
         {/* Icons from fa-icons */}
         <address>
           <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-            <FaLinkedin style={{ fontSize: "30px" }} />
+            <FaLinkedin style={{ fontSize: "26px" }} />
           </a>
           <a href="mailto:name@gmail.com" target="_blank" rel="noreferrer">
             Email
@@ -21,7 +21,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub style={{ color: "black", fontSize: "30px" }} />
+            <FaGithub style={{ color: "black", fontSize: "26px" }} />
           </a>
         </address>
       </footer>

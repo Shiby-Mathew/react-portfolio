@@ -11,8 +11,8 @@ const projects = [
     image: "pic",
     description:
       "This website is the ultimate hub for sharing captivating stories and reviews in the world of Australian e-commerce. This platform is dedicated to showcasing the customer journey, with a focus on shipping period, user locations, and the value range of orders",
-    repo: "https://github.com/StevenDong2512/EcomRevolve",
-    live: "https://ecomrevolve-3cc9d9562799.herokuapp.com/",
+    repo: "https://github.com/Shiby-Mathew/EcomRevolve",
+    live: "https://ecommercerevolve-app-5084df896f21.herokuapp.com/",
   },
 
   {
