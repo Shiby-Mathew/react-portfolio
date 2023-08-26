@@ -2,9 +2,8 @@
 
 ## Description
 
-This is a portfolio application using new React skills. An effective portfolio highlights latest
-technologies and thought processes behind it. Here I have used placeholder images and description.
-Later, I will change them to real applications.
+My Portfolio Webpage is a showcase of my skills, projects, and achievements as a Full Stack Web Developer. An effective portfolio highlights latest
+technologies and thought processes behind it. Visitors can explore my projects, view my resume, and get in touch with me for potential collaborations or inquiries.
 
 ## User Story
 
@@ -76,4 +75,3 @@ The following image shows the web application's appearance and functionality:
 
 - Class Material
 - Tutoring session
-
