@@ -70,11 +70,13 @@ const projects = [
 
 function Portfolio() {
   return (
-    <div>
+    <div className="portfolioCards">
       <p className="contact">Portfolio</p>
-      {projects.map((project, index) => (
-        <Project project={project} key={index} />
-      ))}
+      <div className="portfolio-card">
+        {projects.map((project, index) => (
+          <Project project={project} key={index} />
+        ))}
+      </div>
     </div>
   );
 }

@@ -48,6 +48,7 @@ main {
   max-width: 85%;
   text-align: center;
   margin: 2% auto;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -107,23 +108,27 @@ textarea {
   margin-left: auto;
 }
 /*----------- Project-------------- */
-.project-item {
-  background-color: var(--light);
-  border: 1px solid rgb(95, 174, 244);
-}
+
 .img-responsive {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: contain;
 }
 
-.row {
-  display: flex;
-  flex-flow: row wrap;
-  flex-direction: row;
-  margin-top: 20px;
-  padding: 5px;
+
+.portfolio-card {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  column-gap: 30px;
+  row-gap: 20px;
 }
 
+.header-row {
+  border: 1px solid rgb(95, 174, 244);
+  border-radius: 5px;
+  background-color: var(--light);
+  height: 610px;
+}
 /*------------ resume----------- */
 .skill {
   font-size: 25px;
