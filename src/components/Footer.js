@@ -11,10 +11,13 @@ function Footer() {
         {/* Icons from fa-icons */}
         <address>
           <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-            <FaLinkedin style={{ fontSize: "26px" }} />
+            <FaLinkedin style={{ color: "black", fontSize: "26px" }} />
           </a>
           <a href="mailto:name@gmail.com" target="_blank" rel="noreferrer">
-            Email
+            <span style={{ textDecoration: "none", color: "black" }}>
+              {" "}
+              Email
+            </span>
           </a>
           <a
             href="https://github.com/Shiby-Mathew/react-portfolio"

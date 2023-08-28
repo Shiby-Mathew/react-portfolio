@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../assets/img.png";
+import image from "../assets/shiby.jpg";
 
-// About Section
+// About Section"
 function About() {
   return (
     <div>
@@ -18,9 +18,7 @@ function About() {
         achieving high-quality results under strict deadlines. Eager to obtain a
         challenging position that will expand my learning and build upon my
         developer skills.
-        
       </p>
-      
     </div>
   );
 }
